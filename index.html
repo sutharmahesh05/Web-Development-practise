@@ -3,11 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>tempary web</title>
-    <link rel="stylesheet" href="style.css">
+    <title>LET FORM IT</title>
 </head>
 <body>
-this my new website    
-<script src="script.jss"></script>
+    <h1> form to apply for admmission</h1>
+     <form action ="post">
+        <div>
+        <label for ="username"> USERNAME PU</label>
+        <input type="text" placeholder="Enter your username" autofocus>
+        </div> 
+        <div>
+            <form action="/submit_form" method="post">
+                <label for="gender">Select your gender:</label>
+                <select id="gender" name="gender">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+        
+                
+            </form>
+        </div>
+<div>
+    <label for="comment">Leave a comment:</label>
+        <textarea id="comment" name="comment" rows="4" cols="50"></textarea>
+
+        <input type="submit" value="Submit">
+</div>
+     </form>
 </body>
 </html>
